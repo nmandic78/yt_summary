@@ -166,6 +166,10 @@ You can specify custom directories for saving MP3 files and transcriptions:
 ```bash
 python yt_summary.py -v <YouTube_Video_URL> -m /path/to/mp3_dir -t /path/to/transcript_dir
 ```
+### Example summary
+![image](https://github.com/user-attachments/assets/77471159-e0d1-47e4-997c-970399d57a17)
+
+
 
 ## Troubleshooting
 
