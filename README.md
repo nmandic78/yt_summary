@@ -5,16 +5,16 @@ A Python-based tool to download audio from YouTube videos, transcribe the audio 
 
 ## Table of Contents
 
-- Features
-- Prerequisites
-- Installation
-- Setting Up llama.cpp Server
-- Downloading the Language Model
-- Usage
-- Example
-- Troubleshooting
-- Contributing
-- License
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Setting Up llama.cpp Server](#setting-up-llamacpp-server)
+- [Downloading the Language Model](#downloading-the-language-model)
+- [Usage](#usage)
+- [Example](#example)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 
@@ -149,7 +149,7 @@ Once you have set up the llama.cpp server and installed all dependencies, you ca
 python yt_summary.py -v <YouTube_Video_URL> [options]
 ```
 
-Example:
+## Example:
 ```bash
 python yt_summary.py -v https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
