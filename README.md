@@ -62,8 +62,8 @@ Before using this tool, ensure you have the following installed on your system:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/yt-audio-transcriber.git
-cd yt-audio-transcriber
+git clone https://github.com/nmandic78/yt_summary.git
+cd yt_summary
 ```
 
 ### Create a Virtual Environment (Optional but Recommended)
@@ -84,7 +84,7 @@ Install the required packages:
 pip install -r requirements.txt
 ```
 
-If you don't have a requirements.txt, you can install dependencies manually:
+or:
 ```bash
 pip install yt-dlp faster-whisper openai tiktoken rich
 ```
@@ -146,12 +146,12 @@ Once you have set up the llama.cpp server and installed all dependencies, you ca
 
 ### Running the Script
 ```bash
-python your_script_name.py -v <YouTube_Video_URL> [options]
+python yt_summary.py -v <YouTube_Video_URL> [options]
 ```
 
 Example:
 ```bash
-python transcribe_and_summarize.py -v https://www.youtube.com/watch?v=dQw4w9WgXcQ
+python yt_summary.py -v https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
 
 This command will:
@@ -164,7 +164,7 @@ This command will:
 
 You can specify custom directories for saving MP3 files and transcriptions:
 ```bash
-python transcribe_and_summarize.py -v <YouTube_Video_URL> -m /path/to/mp3_dir -t /path/to/transcript_dir
+python yt_summary.py -v <YouTube_Video_URL> -m /path/to/mp3_dir -t /path/to/transcript_dir
 ```
 
 ## Troubleshooting
@@ -204,4 +204,4 @@ Please ensure your code follows the project's coding standards and includes appr
 
 This project is licensed under the MIT License.
 
-Developed by Your Name
+Developed by Nenad Mandic
